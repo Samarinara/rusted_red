@@ -1,7 +1,7 @@
 use crate::locations;
 use crate::settings;
 
-pub fn save_game(location: String){
+pub fn save_game(location: &String){
     println!("Saving game...");
     settings::edit_json("src/save/save.json", "previous_location", &location);
 }

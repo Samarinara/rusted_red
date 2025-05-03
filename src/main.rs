@@ -9,6 +9,7 @@ mod art;
 mod settings;
 mod locations;
 mod save;
+mod func;
 
 fn main() {
     print!("{}[2J", 27 as char);

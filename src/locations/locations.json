@@ -37,14 +37,17 @@
     "name": "Talking to Mom",
     "desc": "Your mom looks at you. \n'Oh dear... just look at you\nall messed up...\nWhy don't you and your pokemon take a quick rest?",
     "art": "",
-    "category": "location",
+    "category": "location_function",
     "options": {
       "0": {
         "text": "Continue",
         "next": "red_house"
       }
-    }
+    },
+    "function": "heal_party"
   },
+
+
 
   "pallet_town": {
     "name": "Pallet Town",
@@ -90,6 +93,10 @@
       }
     }
   },
+
+
+
+
   "oak_lab": {
     "name": "Oak's Lab",
     "desc": "You are in Oak's Lab. \nYou are surrounded by elegant machinery and thousands of books.",
