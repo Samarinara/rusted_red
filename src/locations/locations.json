@@ -66,6 +66,10 @@
       "2": {
         "text": "Oak's Lab",
         "next": "oak_lab"
+      },
+      "3":{
+        "text": "Route 1",
+        "next": "route_1_gate"
       }
     }
   },
@@ -93,9 +97,6 @@
       }
     }
   },
-
-
-
 
   "oak_lab": {
     "name": "Oak's Lab",
@@ -128,5 +129,26 @@
         "next": "pallet_town"
       }
     }
+  },
+
+  "route_1_entrance": {
+    "gate": "has_starter",
+    "redirect": "pallet_town",
+    "name": "Route 1",
+    "desc": "This is the entrance to Route 1.",
+    "art": "",
+    "category": "gated_location",
+    "options": {
+      "0": {
+        "text": "Turn back to Pallet Town",
+        "next": "pallet_town"
+      },
+      "1":{
+        "text": "Enter Route 1",
+        "next": "route_1"
+      }
+    }
   }
+
+
 }

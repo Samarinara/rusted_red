@@ -1,11 +1,11 @@
 {
-    "oak_starter_introduction": {
+    "pallet_town_stop_right_there": {
         "art": "oak",
         "lines": {
-            "0": "NO WAIT STOP!!!!\n",
-            "1": " - You see the familiar face of Professor Oak, red with exertion, sprinting to stop you before you enter the tall grass\n",
+            "0": "NO WAIT STOP!!!!",
+            "1": " - You see the familiar face of Professor Oak, red with exertion, sprinting to stop you before you enter the tall grass",
             "2": "There are dangerous pokemon and trainers in the grass. You are far too young to be out there without protection.",
-            "3": "Come back with me to my lab... I have something to show you\n",
+            "3": "Come back with me to my lab... I have something to show you",
             "4": " - Oak takes you away from Route 1, back towards his lab.",
             "5": " - When you enter the lab, everything is buzzing with energy. (literally and figuritavely) \nScientists are running around with various books and research papers.",
             "6": "Over here!!!",

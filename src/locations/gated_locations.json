@@ -1,0 +1,7 @@
+{
+    "route_1_gate": {
+        "gate": "has_starter",
+        "if_true": "route_1",
+        "if_false": "pallet_town_stop_right_there"
+    }
+}
