@@ -120,6 +120,7 @@ pub fn load_location_function(name: String){
       //  print!("{}[2J", 27 as char);
         println!("\n\n\n\n\n\n");
         println!("{}", location.art);
+        println!("");
         println!("{}", location.desc);
 
         println!("");
