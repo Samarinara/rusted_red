@@ -10,4 +10,6 @@ fn heal_party(){
     println!("Healing party...");
 }
 
-
+fn do_nothing(){
+    println!("doing nothing");
+}

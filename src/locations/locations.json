@@ -3,7 +3,6 @@
     "name": "Your Home",
     "desc": "This is your home. \nIt is a cozy cabin with everything a small familly could possibly need.\nYou live here with your mom while your father is off on his glorious Pokemon adventure.",
     "art": " _   _                      \n| | | |                     \n| |_| | ___  _ __ ___   ___ \n|  _  |/ _ \\| '_ ` _ \\ / _ \\\n| | | | (_) | | | | | |  __/\n\\_| |_/\\___/|_| |_| |_|\\___|\n                            \n                            \n",
-    "category": "location",
     "options": {
       "0":
       {
@@ -24,7 +23,6 @@
     "name": "Pet your Meowth",
     "desc": "Your Meowth (your mom's technically) purrs softly.\nIf only it could speak english. ",
     "art": "                                        .\n                         |              |\n                         |             ,|\n                ,_       |\\            F'   ,.-\"\"`.\n               /  `-._   |`           // ,-\"_,..  |\n              |   ___ `. | \\ ,\"\"\"`-. /.-' ,'    ' |_....._\n              |  /   `-.`.  L......|j j_.'      ` |       `._\n              | |      _,'| |______|' | '-._     ||  ,.-.    `.\n               L|    ,'   | |      | j      `-.  || '    `.    \\\n___            | \\_,'     | |`\"----| |         `.||       |\\    \\\n \"\"=+...__     `,'   ,.-.   |....._|   _....     Y \\      j_),..+=--\n     `\"-._\"._  .   ,' |  `   \\    /  ,' |   \\     \\ j,..-\"_..+-\"  L\n          `-._-+. j   !   \\   `--'  .   !    \\  ,.-\" _..<._  |    |\n              |-. |   |    L        |   !     |  .-/'      `.|-.,-|\n              |__ '   '    |        '   |    /    /|   `, -. |   j\n        _..--'\"__  `-.___,'          `.___,.'  __/_|_  /   / '   |\n   _.-_..---\"\"_.-\\                            .,...__\"\"--./L/_   |\n -'\"\"'     ,\"\"  ,-`-.    .___.,...___,    _,.+\"      \"\"\"\"`-+-==++-\n          / /  `.   )\"-.._`v \\|    V/  /-'    \\._,._.'\"-. /    /\n          ` `.  )---.     `\"\"\\\\__  / .'        /    \\    Y\"._.'\n           `\"'`\"     `-.     /|._\"\"_/         |  ,..   _ |  |\n                        `\"\"\"' |  \"'           `. `-'  (_|,-.'\n                               \\               |`       .`-\n                                `.           . j`._    /\n                                 |`.._     _.'|    `\"\"/\n                                 |    /\"\"'\"   |  .\". j\n                                .`.__j         \\ `.' |\n                                j    |          `._.'\n                               /     |\n                              /,  ,  \\\n                              \\|  |   L\n                               `..|_..' mh",
-    "category": "location",
     "options": {
       "0": {
         "text": "Continue",
@@ -33,27 +31,11 @@
     }
   },
   
-  "red_house_talk_to_mom": {
-    "name": "Talking to Mom",
-    "desc": "Your mom looks at you. \n'Oh dear... just look at you\nall messed up...\nWhy don't you and your pokemon take a quick rest?",
-    "art": "",
-    "category": "location_function",
-    "options": {
-      "0": {
-        "text": "Continue",
-        "next": "red_house"
-      }
-    },
-    "function": "heal_party"
-  },
-
-
 
   "pallet_town": {
     "name": "Pallet Town",
     "desc": "This is Pallet Town, a regular village ",
     "art": "______     _ _      _     _____                   \n| ___ \\   | | |    | |   |_   _|                  \n| |_/ /_ _| | | ___| |_    | | _____      ___ __  \n|  __/ _` | | |/ _ \\ __|   | |/ _ \\ \\ /\\ / / '_ \\ \n| | | (_| | | |  __/ |_    | | (_) \\ V  V /| | | |\n\\_|  \\__,_|_|_|\\___|\\__|   \\_/\\___/ \\_/\\_/ |_| |_|\n                                                  \n                                                  \n",
-    "category": "location",
     "options": {
       "0": {
         "text": "Your Home",
@@ -77,7 +59,6 @@
     "name": "The Oak Residence",
     "desc": "Welcome to the Oak Residence!\nProfessor Oak lives here along with his wonderful family.\nThe only flaw in this perfect image is his grandson",
     "art": " _____       _     ______          _     _                     \n|  _  |     | |    | ___ \\        (_)   | |                    \n| | | | __ _| | __ | |_/ /___  ___ _  __| | ___ _ __   ___ ___ \n| | | |/ _` | |/ / |    // _ \\/ __| |/ _` |/ _ \\ '_ \\ / __/ _ \\\n\\ \\_/ / (_| |   <  | |\\ \\  __/\\__ \\ | (_| |  __/ | | | (_|  __/\n \\___/ \\__,_|_|\\_\\ \\_| \\_\\___||___/_|\\__,_|\\___|_| |_|\\__\\___|\n                                                               \n                                                               \n",
-    "category": "location",
     "options": {
       "0": {
         "text": "Talk to your rival",
@@ -102,7 +83,6 @@
     "name": "Oak's Lab",
     "desc": "You are in Oak's Lab. \nYou are surrounded by elegant machinery and thousands of books.",
     "art": " _____       _    _       _           _     \n|  _  |     | |  ( )     | |         | |    \n| | | | __ _| | _|/ ___  | |     __ _| |__  \n| | | |/ _` | |/ / / __| | |    / _` | '_ \\ \n\\ \\_/ / (_| |   <  \\__ \\ | |___| (_| | |_) |\n \\___/ \\__,_|_|\\_\\ |___/ \\_____/\\__,_|_.__/ \n                                            \n                                            \n",
-    "category": "location",
     "options": {
       "0": {
         "text": "Talk to Oak",
@@ -131,13 +111,33 @@
     }
   },
 
+  "oak_lab_choose_starter":{
+    "name": "Choose Starter",
+    "desc": "There are 3 pokeballs on the table in front of you containing Oak's last 3 pokemon ",
+    "art": "",
+    "options": {
+      "0":
+      {
+        "text": "The grass pokemon Bulbasaur",
+        "next": "choose_starter_bulbasaur"
+      },
+      "1": {
+        "text": "The water pokemon Squirtle",
+        "next": "choose_starter_squirtle"
+      },
+      "2": {
+        "text": "The fire pokemon Charmander",
+        "next": "choose_starter_charmander"
+      }
+    }
+  },
+
   "route_1_entrance": {
     "gate": "has_starter",
     "redirect": "pallet_town",
     "name": "Route 1",
     "desc": "This is the entrance to Route 1.",
     "art": "",
-    "category": "gated_location",
     "options": {
       "0": {
         "text": "Turn back to Pallet Town",
